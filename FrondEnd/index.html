@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CrmApp</title>
+</head>
+<body>
+
+    <header>
+        <h1>Gestión de proyectos</h1>
+    </header>
+    <div>
+        <nav class="navegacion-principal contenedor">
+            <a href="#project-form">Crear Proyecto</a>
+            <a href="#project-list">Listado de Proyectos</a>
+            <a href="#project-search">Buscar Proyectos</a>
+            <a href="#create-task">Crear Tarea</a>
+            <a href="#edit-task">Editar Tarea</a>
+            <a href="#register-interaction">Registrar Interacción</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Sección para crear nuevo proyecto -->
+        <section id="project-form">
+            <h2>Crear Nuevo Proyecto</h2>
+            <form id="create-project-form">
+                <label for="name">Nombre del Proyecto:</label>
+                <input type="text" id="name" required>
+
+                <label for="startDate">Fecha de Inicio:</label>
+                <input type="date" id="startDate" required>
+
+                <label for="endDate">Fecha de Fin:</label>
+                <input type="date" id="endDate" required>
+
+                <label for="clientId">Cliente (ID):</label>
+                <input type="number" id="clientId" required>
+
+                <!-- Select con las opciones de tipos de campaña -->
+                <label for="campaignTypeId">Tipo de Campaña:</label>
+                <select id="campaignTypeId" required>
+                    <option value="1">SEO</option>
+                    <option value="2">PPC</option>
+                    <option value="3">Social Media</option>
+                    <option value="4">Email Marketing</option>
+                </select>
+
+                <button type="submit">Crear Proyecto</button>
+                <div class="spinner" id="project-spinner" style="display:none;"></div>
+                <p id="project-message"></p>
+            </form>
+        </section>
+
+        <!-- Sección para listar proyectos -->
+        <section id="project-list">
+            <h2>Listado de Proyectos</h2>
+            <div class="table-container">
+                <table class="styled-table" id="projects-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Fecha de Inicio</th>
+                            <th>Fecha de Fin</th>
+                            <th>Cliente</th>
+                            <th>Tipo de Campaña</th>
+                        </tr>
+                    </thead>
+                    <tbody id="projects-tbody">
+                        <!-- Aquí se cargarán los proyectos -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="project-pagination-controls"></div>
+        </section>
+
+        <!-- Sección para buscar proyectos -->
+        <section id="project-search">
+            <h2>Buscar Proyectos</h2>
+            <form id="search-project-form">
+                <label for="search-name">Nombre del Proyecto:</label>
+                <input type="text" id="search-name">
+
+                <label for="search-clientId">Cliente (ID):</label>
+                <input type="number" id="search-clientId">
+
+                <!-- Select con las opciones de tipos de campaña para la búsqueda -->
+                <label for="search-campaignTypeId">Tipo de Campaña:</label>
+                <select id="search-campaignTypeId">
+                    <option value="">Seleccione un tipo de campaña</option>
+                    <option value="1">SEO</option>
+                    <option value="2">PPC</option>
+                    <option value="3">Social Media</option>
+                    <option value="4">Email Marketing</option>
+                </select>
+
+                <button type="submit">Buscar</button>
+            </form>
+            <ul id="search-results">
+                <!-- Aquí se mostrarán los resultados de búsqueda -->
+            </ul>
+            <div id="pagination-controls"></div>
+        </section>
+
+        <!-- Sección para crear tareas -->
+        <section id="create-task">
+            <h2>Crear Tarea</h2>
+            <form id="create-task-form">
+                <label for="project-id">ID del Proyecto:</label>
+                <input type="text" id="project-id" required>
+
+                <label for="task-name">Nombre de la tarea:</label>
+                <input type="text" id="task-name" required>
+
+                <label for="task-date">Fecha de vencimiento:</label>
+                <input type="date" id="task-date" required>
+
+                <label for="user-id">Usuario Asignado:</label>
+                <select id="user-id" required>
+                    <option value="1">Joe Done (jdone@marketing.com)</option>
+                    <option value="2">Nill Armstrong (namstrong@marketing.com)</option>
+                    <option value="3">Marlyn Morales (mmorales@marketing.com)</option>
+                    <option value="4">Antony Orúe (aorue@marketing.com)</option>
+                    <option value="5">Jazmin Fernandez (jfernandez@marketing.com)</option>
+                </select>
+
+                <label for="status-id">Estado:</label>
+                <select id="status-id" required>
+                    <option value="1">Pendiente</option>
+                    <option value="2">En Progreso</option>
+                    <option value="3">Bloqueado</option>
+                    <option value="4">Completado</option>
+                    <option value="5">Cancelado</option>
+                </select>
+
+                <button type="submit">Crear Tarea</button>
+                <div class="spinner" id="task-spinner" style="display:none;"></div>
+                <p id="task-message"></p>
+            </form>
+        </section>
+
+        <!-- Sección para editar tareas -->
+        <section id="edit-task">
+            <h2>Editar Tarea</h2>
+            <form id="edit-task-form">
+                <label for="edit-task-id">ID de la tarea:</label>
+                <input type="text" id="edit-task-id" required>
+
+                <label for="edit-task-name">Nombre de la tarea:</label>
+                <input type="text" id="edit-task-name" required>
+
+                <label for="edit-task-date">Fecha de vencimiento:</label>
+                <input type="date" id="edit-task-date" required>
+
+                <label for="edit-assigned-user">Usuario Asignado:</label>
+                <select id="edit-assigned-user" required>
+                    <option value="1">Joe Done (jdone@marketing.com)</option>
+                    <option value="2">Nill Armstrong (namstrong@marketing.com)</option>
+                    <option value="3">Marlyn Morales (mmorales@marketing.com)</option>
+                    <option value="4">Antony Orúe (aorue@marketing.com)</option>
+                    <option value="5">Jazmin Fernandez (jfernandez@marketing.com)</option>
+                </select>
+
+                <label for="edit-task-status">Estado:</label>
+                <select id="edit-task-status" required>
+                    <option value="1">Pendiente</option>
+                    <option value="2">En Progreso</option>
+                    <option value="3">Bloqueado</option>
+                    <option value="4">Completado</option>
+                    <option value="5">Cancelado</option>
+                </select>
+
+                <button type="submit">Actualizar Tarea</button>
+                <div class="spinner" id="task-spinner" style="display:none;"></div>
+                <p id="edit-task-message"></p>
+            </form>
+        </section>
+
+        <!-- Sección para registrar interacción -->
+        <section id="register-interaction">
+            <h2>Registrar Interacción</h2>
+            <form id="register-interaction-form">
+                <label for="interaction-project-id">ID del Proyecto:</label>
+                <input type="text" id="interaction-project-id" required>
+
+                <label for="interaction-notes">Notas:</label>
+                <textarea id="interaction-notes" required></textarea>
+
+                <label for="interaction-date">Fecha:</label>
+                <input type="datetime-local" id="interaction-date" required>
+
+                <label for="interaction-type">Tipo de Interacción:</label>
+                <select id="interaction-type" required>
+                    <option value="1">Initial Meeting</option>
+                    <option value="2">Phone call</option>
+                    <option value="3">Email</option>
+                    <option value="4">Presentation of Results</option>
+                </select>
+
+                <button type="submit">Registrar Interacción</button>
+                <div class="spinner" id="interaction-spinner" style="display:none;"></div>
+                <p id="interaction-message"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

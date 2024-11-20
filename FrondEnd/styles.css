@@ -1,0 +1,202 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #2fb12d;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    color: white;
+    border-radius: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo para secciones */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Botones */
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Separación entre secciones */
+section + section {
+    border-top: 2px solid #ccc;
+    padding-top: 40px;
+}
+
+/* Estilo para listas de proyectos */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Navegación principal */
+.nav-bg {
+    background-color: blue;
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.navegacion-principal a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Estilo para tablas */
+table.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table.styled-table th, table.styled-table td {
+    padding: 12px 15px;
+}
+
+table.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Contenedor de la tabla para que no se deforme */
+.table-container {
+    overflow-x: auto;
+}
+
+/* Estilo para la paginación */
+#project-pagination-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#project-pagination-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#project-pagination-controls button:hover {
+    background-color: #218838;
+}

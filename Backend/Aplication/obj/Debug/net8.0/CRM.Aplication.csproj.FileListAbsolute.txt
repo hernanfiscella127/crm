@@ -1,0 +1,45 @@
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.AssemblyReference.cache
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfo.cs
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.deps.json
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\bin\Debug\net8.0\CRM.Domain.dll
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\bin\Debug\net8.0\CRM.Domain.pdb
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CopyComplete
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\refint\CRM.Aplication.dll
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\study c#\Proyecto software 2024 2c\Primer intento\CRM\Aplication\obj\Debug\net8.0\ref\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.deps.json
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\bin\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\bin\Debug\net8.0\CRM.Domain.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\bin\Debug\net8.0\CRM.Domain.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.AssemblyReference.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfo.cs
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CopyComplete
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\refint\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\CRM\Aplication\obj\Debug\net8.0\ref\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\bin\Debug\net8.0\CRM.Aplication.deps.json
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\bin\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\bin\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\bin\Debug\net8.0\CRM.Domain.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\bin\Debug\net8.0\CRM.Domain.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.AssemblyReference.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.AssemblyInfo.cs
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.csproj.CopyComplete
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\refint\CRM.Aplication.dll
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\CRM.Aplication.pdb
+C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\Aplication\obj\Debug\net8.0\ref\CRM.Aplication.dll
