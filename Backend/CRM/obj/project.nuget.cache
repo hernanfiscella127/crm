@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sU9ViGSJV4q4YSy964sypQ4bXCQ31gH+JtjhwYBjS74JP1DnMGjNvmFicWcZEhqPwjkbP2n7rWOU5nBq8Ge5Jg==",
+  "dgSpecHash": "nMOxVJhbqoO6ccB4GuxsccJevfQNDh6IUswPzFBgomzWXCuZHJ+J5p75wHh+6Ejvd9bbjwkK7grCw0B4O74bAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM\\CRM.Api.csproj",
+  "projectFilePath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM\\CRM.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herna\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\herna\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -16,7 +16,7 @@ namespace CRM.Api.Controllers
             _usuarioService = usuarioService;
         }
 
-        [HttpGet("/api/v1/Users")]
+        [HttpGet("/api/v1/User")]
         [ProducesResponseType(typeof(List<UsersResponse>), 200)]
         public async Task<IActionResult> GetAllUsers()
         {

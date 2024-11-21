@@ -31,3 +31,15 @@ C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\CRM.
 C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\CRM.Domain\obj\Debug\net8.0\refint\CRM.Domain.dll
 C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.pdb
 C:\Users\herna\Desktop\Copia de seguridad tp proyecto\entrega tp2 2\Backend\CRM.Domain\obj\Debug\net8.0\ref\CRM.Domain.dll
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\bin\Debug\net8.0\CRM.Domain.deps.json
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\bin\Debug\net8.0\CRM.Domain.dll
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\bin\Debug\net8.0\CRM.Domain.pdb
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.AssemblyInfo.cs
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.sourcelink.json
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.dll
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\refint\CRM.Domain.dll
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\CRM.Domain.pdb
+C:\Users\herna\Desktop\Study desarrollo web\CRM (version subida a github)\Backend\CRM.Domain\obj\Debug\net8.0\ref\CRM.Domain.dll

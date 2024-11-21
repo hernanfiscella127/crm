@@ -14,7 +14,7 @@ namespace CRM.Infraestructure.Command
             _context = context;
         }
 
-        public async System.Threading.Tasks.Task UpdateTask(Domain.Entities.Tasks task)
+        public async Task UpdateTask(Domain.Entities.Tasks task)
         {
             try
             {

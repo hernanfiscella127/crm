@@ -149,11 +149,13 @@ namespace CRM.Aplication.UseCases
             if (command.DueDate <= DateTime.Now)
                 throw new ArgumentException("Due date must be in the future.");
 
-            var task = new Domain.Entities.Tasks
+            var task = new Tasks
             {
                 TaskID = Guid.NewGuid(),
                 Name = command.Name,
                 DueDate = command.DueDate,
+                CreateDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
                 ProjectID = id,
                 Status = command.Status,
                 AssignedTo = command.User
@@ -190,6 +192,7 @@ namespace CRM.Aplication.UseCases
 
             task.Name = command.Name;
             task.DueDate = command.DueDate;
+            task.UpdateDate = DateTime.Now;
             task.Status = command.Status;
             task.AssignedTo = command.User;
 

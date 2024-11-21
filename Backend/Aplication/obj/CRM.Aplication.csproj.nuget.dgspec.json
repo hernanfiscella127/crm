@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\Aplication\\CRM.Aplication.csproj": {}
+    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\Aplication\\CRM.Aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\Aplication\\CRM.Aplication.csproj": {
+    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\Aplication\\CRM.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\Aplication\\CRM.Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\Aplication\\CRM.Aplication.csproj",
         "projectName": "CRM.Aplication",
-        "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\Aplication\\CRM.Aplication.csproj",
+        "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\Aplication\\CRM.Aplication.csproj",
         "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\Aplication\\obj\\",
+        "outputPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\CRM.Domain.csproj": {
-                "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\CRM.Domain.csproj"
+              "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\CRM.Domain.csproj": {
+                "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\CRM.Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\CRM.Domain.csproj": {
+    "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\CRM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\CRM.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\CRM.Domain.csproj",
         "projectName": "CRM.Domain",
-        "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\CRM.Domain.csproj",
+        "projectPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\CRM.Domain.csproj",
         "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM\\Backend\\CRM.Domain\\obj\\",
+        "outputPath": "C:\\Users\\herna\\Desktop\\Study desarrollo web\\CRM (version subida a github)\\Backend\\CRM.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herna\\AppData\\Roaming\\NuGet\\NuGet.Config",
